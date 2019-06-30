@@ -34,7 +34,7 @@ The steps to install balenaOS on your IoT are:
 
 (4) Voila: Find the IoT device online in your balena dashboard:
 
-![IoT device management on balena](IoT_Tools/images/IoT-device-management.png?)
+![IoT device management on balena](IoT_Tools/images/IoT-device-management.png)
 
 #### Deploying agriBrain on our IoT fleet
 We are now ready to push an application to the IoT fleet via balenaCloud. For this, we need to install the balena CLI, which allows us to push applications to our balena account on balenaCloud, from where it gets deployed to our IoT device and starts running. To install the balena CLI, get the latest package from the [balena github](https://github.com/balena-io/balena-cli#standalone-install).
@@ -47,7 +47,7 @@ After installing the CLI, we run ```$ balena login``` to connect the CLI to your
 
 [Grafana](https://github.com/grafana/grafana)
 
-![IoT](IoT_Tools/images/IoT.jpg?)
+![IoT](IoT_Tools/images/iot.jpg)
 
 
 We also provide a link to the live dashboard currently linked to a single Rasperry Pi [live dashboard](https://a6e4c28a1b168f5bd6be1f953e1905cd.balena-devices.com/d/pF3gRDiRk/agribrain?orgId=1&kiosk=tv)
