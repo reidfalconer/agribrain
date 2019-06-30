@@ -1,22 +1,22 @@
 # Agriculture IoT use-case: AgriBrain
 
-Project submission
-
 Authors: Hector Canno, Reid Falconer, Sebastian Wolf
 
-### Project description
+## Project description
 
-### Guide for folders:
+Bla bla bla
+
+## Guide for folders:
 
 - IoT Tools
 - Dashboard
 - Presentation
 
-### Installation guide for IoT device
+## Installation guide for IoT device
 
 **Option 1: BalenaOS + Python IoT app + RShiny dashboard**
 
-#### Setting up the BalenaOS on the IoT device
+### Setting up the BalenaOS on the IoT device
 
 Balena facilitates deploying Docker containers on IoT devices. It is built around a minimal Linux OS designed to run Docker containers. The IoT device is connected to a cloud-service through which applications packaged in docker containers can be deployed. Deploying a new application to connected devices is as simple as pushing a commit to the cloud - it then immediately starts running on our IoT device.
 
