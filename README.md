@@ -31,6 +31,8 @@ The steps to install balenaOS on your IoT are:
 
 (4) Voila: Find the Device online in your balena dashboard.
 
+![Alt text](/IoT Tools/IoT device management on BalenaCloud.png?raw=true "IoT Device Management on Balena Cloud")
+
 We are now ready to push an application to the IoT device via balenaCloud. For this, we need to install the balena CLI, which allows us to push applications to our balena account on balenaCloud, from where it gets deployed to our IoT device and starts running. To install the balena CLI, go to https://github.com/balena-io/balena-cli#standalone-install
 
 After installing the CLI, we run ```$ balena login```, to connect the CLI to your balena account. Now we can simply issue ```$ balena push agribrain``` from within the folder of the application we built. This pushes our agribain application to the IoT device via the balenaCloud. The cloud builds a docker image for the application and handles the process of setting it up and running it on the IoT device. We can then control it from the balena dashboard.
