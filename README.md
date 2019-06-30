@@ -28,7 +28,7 @@ AgriBrain is an innovative product that is continuously building creative techno
 - Grafana dashboad to explore realtime data and give farmer feedback
 - Rshiny to interact with the analytics engine
 
-## Guide for folders:
+## Guide for folders
 - IoT Tools
   - sensor: Python app to control IoT sensor
   - telegraf: data exchange with database
