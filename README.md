@@ -12,12 +12,12 @@ Bla bla bla
 - Dashboard
 - Presentation
 
-## Installation guide for IoT device
+## Installation guides for IoT device
 
 **Option 1:**
 - **BalenaOS on IoT device collecting weather/humidity data**
 - **Python IoT app deployed in a Docker container via BalenaCloud**
-- **RShiny dashboard to analyze data**
+- **Grafana dashboard to analyze data**
 
 Balena facilitates deploying Docker containers on IoT devices. It is built around a minimal Linux OS designed to run Docker containers. The IoT device is connected to a cloud-service through which applications packaged in docker containers can be deployed. Deploying a new application to connected devices is as simple as pushing a commit to the cloud - it then immediately starts running on our IoT device.
 
