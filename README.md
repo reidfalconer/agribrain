@@ -40,6 +40,12 @@ After installing the CLI, we run ```$ balena login```, to connect the CLI to you
 ![](IoT_Tools/images/AgriBrain-Dashboard.png?)
 
 
+[Grafana](https://github.com/grafana/grafana)
+
+
+We also provide a link to the live dashboard currently linked to a single Rasperry Pi [live dashboard] (https://a6e4c28a1b168f5bd6be1f953e1905cd.balena-devices.com/d/pF3gRDiRk/agribrain?orgId=1&kiosk=tv)
+
+
 **Option 2:**
 - **Ubuntu on IoT device collecting weather/humidity data**
 - **Python IoT app deployed via Azure**
