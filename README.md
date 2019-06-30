@@ -26,7 +26,7 @@ Deploying a new application to connected devices is as simple as pushing a commi
 #### Setting up the IoT device and connecting it to or fleet management system
 The steps to install balenaOS on your IoT are:
 
-(1) Create an account on https://www.balena.io
+(1) Create an account on [balena.io](https://www.balena.io)
 
 (2) Follow instructions on [balena.io](https://www.balena.io) to create an application. We call ours 'agribrain'. Then download the OS image that is created.
 
@@ -37,7 +37,7 @@ The steps to install balenaOS on your IoT are:
 ![](IoT_Tools/images/IoT-device-management.png?)
 
 #### Deploying agriBrain on or IoT fleet
-We are now ready to push an application to the IoT fleet via balenaCloud. For this, we need to install the balena CLI, which allows us to push applications to our balena account on balenaCloud, from where it gets deployed to our IoT device and starts running. To install the balena CLI, get the latest package from the [balena github] (https://github.com/balena-io/balena-cli#standalone-install).
+We are now ready to push an application to the IoT fleet via balenaCloud. For this, we need to install the balena CLI, which allows us to push applications to our balena account on balenaCloud, from where it gets deployed to our IoT device and starts running. To install the balena CLI, get the latest package from the [balena github](https://github.com/balena-io/balena-cli#standalone-install).
 
 After installing the CLI, we run ```$ balena login```, to connect the CLI to your balena account. Now we can simply issue ```$ balena push agribrain``` from within the folder of the application we built. This pushes our agribain application to the IoT device via the balenaCloud. The cloud builds a docker image for the application and handles the process of setting it up and running it on the IoT device. We can then control it from the balena dashboard.
 
