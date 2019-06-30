@@ -54,7 +54,7 @@ The steps to install balenaOS on your IoT are:
 
 (4) Voila: Find the IoT device online in your balena dashboard.
 
-**Fleet management suite**
+**Fleet management suite:**
 ![IoT device management on balena](IoT_Tools/images/IoT-device-management.png)
 
 ### Deploying agriBrain on our IoT fleet
@@ -64,7 +64,7 @@ After installing the CLI, we run ```$ balena login``` to connect the CLI to your
 
 The IoT devices will now start collecting data to help agriBrain provide feedback to the farmer. The farmer can access the data through the dashboard described below, but can also gets on-location feedback from the IoT devices, and enter commands.
 
-**IoT device for Sensor feedback, interaction with actuators**
+**IoT device for Sensor feedback, interaction with actuators:**
 
 <img src="IoT_Tools/images/ioT.jpg" alt="drawing" width="500"/>
 
@@ -90,6 +90,7 @@ The agribrain-shiny folder contains the [Shiny App](https://rstudio.github.io/sh
 
 5. You should then see something like this:
 
-**Analytics engine**
+**Analytics engine:**
+
 ![rshiny-agribrain](agribrain-shiny/screenshots/ss_devices.png)
 ![rshiny-agribrain_data](agribrain-shiny/screenshots/ss_data.png)
