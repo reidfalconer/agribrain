@@ -45,8 +45,9 @@ The IoT devices will now start collecting data to help agriBrain provide feedbac
 
 <img src="IoT_Tools/images/ioT.jpg" alt="drawing" width="500"/>
 
-#### Running the agriBrain dashboard on [Grafana](https://github.com/grafana/grafana)
-The farmer can access the agriBrain data through this dashboard, which analyses historical data collected by the device fleet, pulls a forecast of the weather, and suggests whether to water a plot or not, and how much.
+#### Running the agriBrain dashboard
+The farmer can access the agriBrain data through a dashboard [Grafana](https://github.com/grafana/grafana), which analyses historical data collected by the device fleet, pulls a forecast of the weather, and suggests whether to water a plot or not, and how much.
+
 ![AgriBrain Dashboard](IoT_Tools/images/AgriBrain-Dashboard.png?)
 
 Here is a link to one of our live devices, deployed on a micro-farm in Barcelona: [live dashboard](https://a6e4c28a1b168f5bd6be1f953e1905cd.balena-devices.com/d/pF3gRDiRk/agribrain?orgId=1&kiosk=tv)
