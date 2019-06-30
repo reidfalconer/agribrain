@@ -1,6 +1,6 @@
 # AgriBrain Shiny Dashboard
 
-This repository contains the data and code required to create the [Shiny Dashboard](https://rstudio.github.io/shinydashboard/) that displays the three AgriBrain sensors located in Uganda. The sensor capture soil moisture levels (both past and predicted values) 
+This repository contains the data and code required to create the [Shiny Dashboard](https://rstudio.github.io/shinydashboard/) that displays the three AgriBrain sensors located in Uganda. Each sensor captures soil moisture levels for there given crop (both past and predicted values) and further allows the user to download the data in a csv format. 
 
 ### Get It Running
 1. Make sure you have [R](https://cran.r-project.org/doc/manuals/r-release/R-admin.html) installed *(Pretty important step in this process)*
