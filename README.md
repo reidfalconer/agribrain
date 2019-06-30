@@ -14,7 +14,7 @@ Bla bla bla
 
 ## Installation guide for IoT device
 
-**Option 1: BalenaOS + Python IoT app + RShiny dashboard**
+**Option 1: BalenaOS on IoT device collecting weather/humidity data + Python IoT app deployed in a Docker container via BalenaCloud + RShiny dashboard to analyze data**
 
 Balena facilitates deploying Docker containers on IoT devices. It is built around a minimal Linux OS designed to run Docker containers. The IoT device is connected to a cloud-service through which applications packaged in docker containers can be deployed. Deploying a new application to connected devices is as simple as pushing a commit to the cloud - it then immediately starts running on our IoT device.
 
@@ -33,4 +33,4 @@ We are now ready to push an application to the IoT device via balenaCloud. For t
 After installing the CLI, we run ```$ balena login```, to connect the CLI to your balena account. Now we can simply issue ```$ balena push agribrain``` from within the folder of the application we built. This pushes our agribain application to the IoT device via the balenaCloud. The cloud builds a docker image for the application and handles the process of setting it up and running it on the IoT device. We can then control it from the balena dashboard.
 
 
-**Option 2**
+**Option 2: Ubuntu on IoT device collecting weather/humidity data + Python IoT app deployed via Azure + RShiny dashboard to analyse data**
