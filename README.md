@@ -44,8 +44,8 @@ After installing the CLI, we run ```$ balena login``` to connect the CLI to your
 #### Running agriBrain dashboard
 ![AgriBrain Dashboard](IoT_Tools/images/AgriBrain-Dashboard.png?)
 
-
 [Grafana](https://github.com/grafana/grafana)
+
 
 ![IoT](IoT_Tools/images/iot.jpg)
 
