@@ -47,7 +47,7 @@ After installing the CLI, we run ```$ balena login``` to connect the CLI to your
 [Grafana](https://github.com/grafana/grafana)
 
 
-![IoT](IoT_Tools/images/ioT.jpg)
+![IoT](IoT_Tools/images/ioT.jpg = 100x)
 
 
 We also provide a link to the live dashboard currently linked to a single Rasperry Pi [live dashboard](https://a6e4c28a1b168f5bd6be1f953e1905cd.balena-devices.com/d/pF3gRDiRk/agribrain?orgId=1&kiosk=tv)
