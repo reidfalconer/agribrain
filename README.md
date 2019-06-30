@@ -15,7 +15,7 @@ Bla bla bla
 ## Installation guides for IoT device
 
 ### Option 1
-- **bIoT device collecting weather/humidity data**
+- **IoT device collecting weather/humidity data**
 - **Python IoT app deployed in a Docker container via balenaCloud**
 - **Grafana dashboard to analyze data**
 
