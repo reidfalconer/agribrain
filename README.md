@@ -19,7 +19,7 @@ Bla bla bla
 - **Python IoT app deployed in a Docker container via BalenaCloud**
 - **Grafana dashboard to analyze data**
 
-One option to deploy AgriBrain is via [Balena] (https://www.balena.io). Balena offers a slim Linux distribution for IoT devices that connects to the cloud and makes it simple to deploy apps via [Docker] (https://www.docker.com) containers on a whole fleet of IoT devices simultanenously.
+One option to deploy AgriBrain is via [Balena](https://www.balena.io). Balena offers a slim Linux distribution for IoT devices that connects to the cloud and makes it simple to deploy apps via [Docker] (https://www.docker.com) containers on a whole fleet of IoT devices simultanenously.
 
 Deploying a new application to connected devices is as simple as pushing a commit to the cloud - it then immediately starts running on our IoT device fleet.
 
@@ -28,7 +28,7 @@ The steps to install balenaOS on your IoT are:
 
 (1) Create an account on https://www.balena.io
 
-(2) Follow instructions on [balena.io] (https://www.balena.io) to create an application. We call ours 'agribrain'. Then download the OS image that is created.
+(2) Follow instructions on [balena.io](https://www.balena.io) to create an application. We call ours 'agribrain'. Then download the OS image that is created.
 
 (3) Flash the image on your IoT SD storage, for example using balenaEtcher. Insert it in the IoT device and power it up.
 
@@ -50,7 +50,7 @@ After installing the CLI, we run ```$ balena login```, to connect the CLI to you
 We also provide a link to the live dashboard currently linked to a single Rasperry Pi [live dashboard] (https://a6e4c28a1b168f5bd6be1f953e1905cd.balena-devices.com/d/pF3gRDiRk/agribrain?orgId=1&kiosk=tv)
 
 
-### Option 1
+### Option 2
 - **Ubuntu on IoT device collecting weather/humidity data**
 - **Python IoT app deployed via Azure**
 - **RShiny dashboard to analyse data**
