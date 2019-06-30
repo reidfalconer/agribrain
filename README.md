@@ -19,7 +19,7 @@ Bla bla bla
 - **Python IoT app deployed in a Docker container via balenaCloud**
 - **Grafana dashboard to analyze data**
 
-One option to deploy AgriBrain is via [balena](https://www.balena.io). balena offers a slim Linux distribution for IoT devices that connects to the cloud and makes it simple to deploy apps via [Docker] (https://www.docker.com) containers on a whole fleet of IoT devices simultanenously.
+One option to deploy AgriBrain is via [balena](https://www.balena.io). balena offers a slim Linux distribution for IoT devices that connects to the cloud and makes it simple to deploy apps via [Docker](https://www.docker.com) containers on a whole fleet of IoT devices simultanenously.
 
 Deploying a new application to connected devices is as simple as pushing a commit to the cloud - it then immediately starts running on our IoT device fleet.
 
