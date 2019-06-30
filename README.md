@@ -63,14 +63,16 @@ After installing the CLI, we run ```$ balena login``` to connect the CLI to your
 
 The IoT devices will now start collecting data to help agriBrain provide feedback to the farmer. The farmer can access the data through the dashboard described below, but can also gets on-location feedback from the IoT devices, and enter commands:
 
+**Sensor feedback, interaction with actuators**
 <img src="IoT_Tools/images/ioT.jpg" alt="drawing" width="500"/>
 
 ### Running the grafana agriBrain dashboard for data exploration
 The farmer can access the agriBrain data through a dashboard [Grafana](https://github.com/grafana/grafana), which analyses historical data collected by the device fleet, pulls a forecast of the weather, and suggests whether to water a plot or not, and how much.
-
+**Grafana dashboard to explore real-time data**
 ![AgriBrain Dashboard](IoT_Tools/images/AgriBrain-Dashboard.png?)
 
-Here is a link to one of our live devices, deployed on a micro-farm in Barcelona: [live dashboard](https://a6e4c28a1b168f5bd6be1f953e1905cd.balena-devices.com/d/pF3gRDiRk/agribrain?orgId=1&kiosk=tv)
+Here is a link to one of our live devices, deployed on a micro-farm in Barcelona:
+[live dashboard](https://a6e4c28a1b168f5bd6be1f953e1905cd.balena-devices.com/d/pF3gRDiRk/agribrain?orgId=1&kiosk=tv)
 
 ### Running the analytics app to interact with the analytics engine
 The agribrain-shiny folder contains the [Shiny App](https://rstudio.github.io/shinydashboard/) to interact with the analytics engine  that displays the three AgriBrain sensors located in Uganda. Each sensor captures soil moisture levels for there given crop (both past and predicted values) and further allows the user to download the data in a csv format. 
@@ -84,5 +86,6 @@ The agribrain-shiny folder contains the [Shiny App](https://rstudio.github.io/sh
 4. You should be good to go!! Make sure your cwd is set to the base level of this repo. run `shinyApp()` in your console, or click the `Run App` button in RStudio.
 
 5. You should then see something like this:
+**Analytics engine**
 ![rshiny-agribrain](agribrain-shiny/screenshots/ss_devices.png)
 ![rshiny-agribrain_data](agribrain-shiny/screenshots/ss_data.png)
