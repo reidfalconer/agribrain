@@ -1,6 +1,6 @@
 # Agriculture IoT use-case: AgriBrain
 
-Authors: Hector Canno, Reid Falconer, Sebastian Wolf
+Authors: Hector Cano, Reid Falconer, Sebastian Wolf
 
 ## Project description
 
