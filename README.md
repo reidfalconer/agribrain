@@ -36,7 +36,7 @@ AgriBrain is an innovative product that is continuously building creative techno
 - agribrain-shiny: Analytics engine
 - Presentation
 
-## IoT fleet deployment guide
+## Protoype installation guide
 
 The option we chose to deploy AgriBrain for this protoype is via [balena](https://www.balena.io). balena offers a slim Linux distribution for IoT devices that connects to the cloud and makes it simple to deploy apps via [Docker](https://www.docker.com) containers on a whole fleet of IoT devices simultanenously.
 
