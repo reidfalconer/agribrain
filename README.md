@@ -64,10 +64,12 @@ After installing the CLI, we run ```$ balena login``` to connect the CLI to your
 The IoT devices will now start collecting data to help agriBrain provide feedback to the farmer. The farmer can access the data through the dashboard described below, but can also gets on-location feedback from the IoT devices, and enter commands:
 
 **Sensor feedback, interaction with actuators**
+
 <img src="IoT_Tools/images/ioT.jpg" alt="drawing" width="500"/>
 
 ### Running the grafana agriBrain dashboard for data exploration
 The farmer can access the agriBrain data through a dashboard [Grafana](https://github.com/grafana/grafana), which analyses historical data collected by the device fleet, pulls a forecast of the weather, and suggests whether to water a plot or not, and how much.
+
 **Grafana dashboard to explore real-time data**
 ![AgriBrain Dashboard](IoT_Tools/images/AgriBrain-Dashboard.png?)
 
