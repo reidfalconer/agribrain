@@ -52,8 +52,9 @@ The steps to install balenaOS on your IoT are:
 
 (3) Flash the image on your IoT SD storage, for example using balenaEtcher. Insert it in the IoT device and power it up.
 
-(4) Voila: Find the IoT device online in your balena dashboard:
+(4) Voila: Find the IoT device online in your balena dashboard.
 
+**Fleet management suite**
 ![IoT device management on balena](IoT_Tools/images/IoT-device-management.png)
 
 ### Deploying agriBrain on our IoT fleet
@@ -61,9 +62,9 @@ We are now ready to push an application to the IoT fleet via balenaCloud. For th
 
 After installing the CLI, we run ```$ balena login``` to connect the CLI to your balena account. Now we can simply issue ```$ balena push agribrain``` from within the folder of the application we built. This containerizes our application in Docker, and pushes it to the IoT device fleet. We can then control our applications from the balena dashboard.
 
-The IoT devices will now start collecting data to help agriBrain provide feedback to the farmer. The farmer can access the data through the dashboard described below, but can also gets on-location feedback from the IoT devices, and enter commands:
+The IoT devices will now start collecting data to help agriBrain provide feedback to the farmer. The farmer can access the data through the dashboard described below, but can also gets on-location feedback from the IoT devices, and enter commands.
 
-**Sensor feedback, interaction with actuators**
+**IoT device for Sensor feedback, interaction with actuators**
 
 <img src="IoT_Tools/images/ioT.jpg" alt="drawing" width="500"/>
 
