@@ -41,15 +41,15 @@ We are now ready to push an application to the IoT fleet via balenaCloud. For th
 
 After installing the CLI, we run ```$ balena login``` to connect the CLI to your balena account. Now we can simply issue ```$ balena push agribrain``` from within the folder of the application we built. This containerizes our application in Docker, and pushes it to the IoT device fleet. We can then control our applications from the balena dashboard.
 
-#### Running agriBrain dashboard
-![AgriBrain Dashboard](IoT_Tools/images/AgriBrain-Dashboard.png?)
-
-[Grafana](https://github.com/grafana/grafana)
+The IoT devices will now start collecting data to help agriBrain provide feedback to the farmer. The farmer can access the data through the dashboard described below, but can also gets on-location feedback from the IoT devices, and enter commands:
 
 <img src="IoT_Tools/images/ioT.jpg" alt="drawing" width="500"/>
 
+#### Running the agriBrain dashboard on [Grafana](https://github.com/grafana/grafana)
+The farmer can access the agriBrain data through this dashboard, which analyses historical data collected by the device fleet, pulls a forecast of the weather, and suggests whether to water a plot or not, and how much.
+![AgriBrain Dashboard](IoT_Tools/images/AgriBrain-Dashboard.png?)
 
-We also provide a link to the live dashboard currently linked to a single Rasperry Pi [live dashboard](https://a6e4c28a1b168f5bd6be1f953e1905cd.balena-devices.com/d/pF3gRDiRk/agribrain?orgId=1&kiosk=tv)
+Here is a link to one of our live devices, deployed on a micro-farm in Barcelona: [live dashboard](https://a6e4c28a1b168f5bd6be1f953e1905cd.balena-devices.com/d/pF3gRDiRk/agribrain?orgId=1&kiosk=tv)
 
 
 ### Option 2
