@@ -11,6 +11,6 @@ This repository contains the data and code required to create the [Shiny Dashboa
 
 4. You should be good to go!! Make sure your cwd is set to the base level of this repo. run `shinyApp()` in your console, or click the `Run App` button in RStudio.
 
-5. Should see something like this:
+5. You should then see something like this:
 ![rshiny-agribrain](screenshots/ss_devices.png)
 ![rshiny-agribrain_data](screenshots/ss_data.png)
