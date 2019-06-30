@@ -31,7 +31,7 @@ The steps to install balenaOS on your IoT are:
 
 (4) Voila: Find the Device online in your balena dashboard.
 
-![](IoT_Tools/IoT-device-management.png?)
+![](IoT_Tools/images/IoT-device-management.png?)
 
 We are now ready to push an application to the IoT device via balenaCloud. For this, we need to install the balena CLI, which allows us to push applications to our balena account on balenaCloud, from where it gets deployed to our IoT device and starts running. To install the balena CLI, go to https://github.com/balena-io/balena-cli#standalone-install
 
