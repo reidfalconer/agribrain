@@ -25,7 +25,8 @@ AgriBrain is an innovative product that is continuously building creative techno
 - Python app to control IoT sensors, deployed in Docker container
 - Balena as IoT fleet management system pushing updates
 - Influx DB to collect data
-- Rshiny app and/or Grafana dashboad to analyse data
+- Grafana dashboad to explore realtime data and give farmer feedback
+- Rshiny to interact with the analytics engine
 
 ## Guide for folders:
 - IoT Tools
@@ -71,7 +72,7 @@ The farmer can access the agriBrain data through a dashboard [Grafana](https://g
 
 Here is a link to one of our live devices, deployed on a micro-farm in Barcelona: [live dashboard](https://a6e4c28a1b168f5bd6be1f953e1905cd.balena-devices.com/d/pF3gRDiRk/agribrain?orgId=1&kiosk=tv)
 
-### Running the Rshiny dashboard to interact with the analytics engine
+### Running the analytics app to interact with the analytics engine
 The agribrain-shiny folder contains the [Shiny App](https://rstudio.github.io/shinydashboard/) to interact with the analytics engine  that displays the three AgriBrain sensors located in Uganda. Each sensor captures soil moisture levels for there given crop (both past and predicted values) and further allows the user to download the data in a csv format. 
 
 ### Get It Running
