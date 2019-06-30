@@ -86,6 +86,7 @@ The agribrain-shiny folder contains the [Shiny App](https://rstudio.github.io/sh
 4. You should be good to go!! Make sure your cwd is set to the base level of this repo. run `shinyApp()` in your console, or click the `Run App` button in RStudio.
 
 5. You should then see something like this:
+
 **Analytics engine**
 ![rshiny-agribrain](agribrain-shiny/screenshots/ss_devices.png)
 ![rshiny-agribrain_data](agribrain-shiny/screenshots/ss_data.png)
