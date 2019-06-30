@@ -16,8 +16,6 @@ Bla bla bla
 
 **Option 1: BalenaOS + Python IoT app + RShiny dashboard**
 
-### Setting up the BalenaOS on the IoT device
-
 Balena facilitates deploying Docker containers on IoT devices. It is built around a minimal Linux OS designed to run Docker containers. The IoT device is connected to a cloud-service through which applications packaged in docker containers can be deployed. Deploying a new application to connected devices is as simple as pushing a commit to the cloud - it then immediately starts running on our IoT device.
 
 The steps to install balenaOS on your IoT are:
