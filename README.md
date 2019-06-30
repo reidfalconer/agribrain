@@ -75,7 +75,6 @@ Here is a link to one of our live devices, deployed on a micro-farm in Barcelona
 ### Running the analytics app to interact with the analytics engine
 The agribrain-shiny folder contains the [Shiny App](https://rstudio.github.io/shinydashboard/) to interact with the analytics engine  that displays the three AgriBrain sensors located in Uganda. Each sensor captures soil moisture levels for there given crop (both past and predicted values) and further allows the user to download the data in a csv format. 
 
-### Get It Running
 1. Make sure you have [R](https://cran.r-project.org/doc/manuals/r-release/R-admin.html) installed *(Pretty important step in this process)*
 
 2. Through your favorite R interface, be sure you `install.packages` for both shiny and shinydashboard along with all the packages found in the `global.R` script.
